@@ -172,6 +172,11 @@ $ sudo service apache2 restart
 2. change the javascript_origins field to  "http://35.178.8.18", "http://ec2-35-178-8-18.eu-west-2.compute.amazonaws.com"
 3. Change authorized redirect URIs to "http://ec2-35-178-8-18.eu-west-2.compute.amazonaws.com/oauth2callback"
 
+## References:
+1. https://github.com/mulligan121/Udacity-Linux-Configuration
+2. https://github.com/chuanqin3/udacity-linux-configuration
+
+
 ## Contact Me
 
 * **Youssef Essam**
