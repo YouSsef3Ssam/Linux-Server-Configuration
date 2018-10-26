@@ -167,7 +167,12 @@ $ exit
 ```
 $ sudo service apache2 restart
 ```
+## Update the Google OAuth client secrets file 
+1. Fill in the client_id and client_secret fields in the file client_secrets.json.
+2. change the javascript_origins field to  "http://35.178.8.18", "http://ec2-35-178-8-18.eu-west-2.compute.amazonaws.com"
+3. Change authorized redirect URIs to "http://ec2-35-178-8-18.eu-west-2.compute.amazonaws.com/oauth2callback"
 
+These addresses also need to be entered into the Google Developers Console -> API Manager -> Credentials, in the web client under "Authorized JavaScript origins".
 ## Contact Me
 
 * **Youssef Essam**
